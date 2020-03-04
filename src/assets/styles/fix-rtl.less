@@ -1,0 +1,45 @@
+/*rtl:begin:ignore*/
+* {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+}
+
+.anticon {
+  &.anticon-bars, &.anticon-logout {
+    transform: scaleX(-1);
+  }
+}
+
+.ant-form-item-label > label::after{
+  margin: 0 2px 0 8px;
+}
+
+.ant-slider-mark-text{
+  transform: translateX(50%) !important;
+}
+
+.ant-picker-header-view button.ant-picker-year-btn {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.ant-notification-notice-with-icon .ant-notification-notice-message {
+  margin-left: 0;
+  margin-right: 48px;
+  padding-right: 0;
+  padding-left: 24px;
+}
+
+.ant-notification-notice-close {
+  right: auto;
+  left: 22px;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+/*rtl:end:ignore*/

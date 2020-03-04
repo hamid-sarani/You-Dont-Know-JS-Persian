@@ -1,0 +1,30 @@
+@import '~antd/lib/button/style/index';
+@import '~antd/lib/style/color/colors';
+
+@btn-success-color: white;
+@btn-success-bg: @green-7;
+@btn-success-border: @green-7;
+
+@btn-warning-color: white;
+@btn-warning-bg: @orange-6;
+@btn-warning-border: @orange-6;
+
+.@{btn-prefix-cls} {
+  &-success:not(&-ghost) {
+    .button-variant-primary(@btn-success-color, @btn-success-bg);
+  }
+
+  &-background-ghost&-success {
+    .button-variant-ghost(@btn-success-bg);
+  }
+}
+
+.@{btn-prefix-cls} {
+  &-warning:not(&-ghost) {
+    .button-variant-primary(@btn-warning-color, @btn-warning-bg);
+  }
+
+  &-background-ghost&-warning {
+    .button-variant-ghost(@btn-warning-bg);
+  }
+}
