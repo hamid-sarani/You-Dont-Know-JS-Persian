@@ -11962,8 +11962,8 @@ module.exports = !__webpack_require__(60)(function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrowserRouter; });
-/* unused harmony export HashRouter */
+/* unused harmony export BrowserRouter */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HashRouter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Link; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return NavLink; });
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(17);
@@ -73346,4 +73346,4 @@ icons_ArrowRightOutlined_ArrowRightOutlined.displayName = 'ArrowRightOutlined';
 
 /***/ })
 ]]);
-//# sourceMappingURL=2.a8ee411d.chunk.js.map
+//# sourceMappingURL=2.b0951e16.chunk.js.map

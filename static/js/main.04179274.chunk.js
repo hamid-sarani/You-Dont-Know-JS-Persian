@@ -228,7 +228,7 @@ var contentType=response.headers.get('content-type');if(response.status===404||c
 navigator.serviceWorker.ready.then(function(registration){registration.unregister().then(function(){window.location.reload();});});}else{// Service worker found. Proceed as normal.
 registerValidSW(swUrl,config);}}).catch(function(){console.log('No internet connection found. App is running in offline mode.');});}function unregister(){if('serviceWorker'in navigator){navigator.serviceWorker.ready.then(function(registration){registration.unregister();});}}
 // CONCATENATED MODULE: ./src/index.js
-react_dom_default.a.render(react_default.a.createElement(react_router_dom["a" /* BrowserRouter */],null,react_default.a.createElement(src_App,null)),document.getElementById("root"));// If you want your app to work offline and load faster, you can change
+react_dom_default.a.render(react_default.a.createElement(react_router_dom["a" /* HashRouter */],null,react_default.a.createElement(src_App,null)),document.getElementById("root"));// If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 unregister();
@@ -236,4 +236,4 @@ unregister();
 /***/ })
 
 },[[168,1,2]]]);
-//# sourceMappingURL=main.fc59851e.chunk.js.map
+//# sourceMappingURL=main.04179274.chunk.js.map
