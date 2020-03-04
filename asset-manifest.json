@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/You-Dont-Know-JS-Persian/static/css/main.7548605f.chunk.css",
+    "main.js": "/You-Dont-Know-JS-Persian/static/js/main.fc59851e.chunk.js",
+    "main.css.map": "/You-Dont-Know-JS-Persian/static/css/main.7548605f.chunk.css.map",
+    "main.js.map": "/You-Dont-Know-JS-Persian/static/js/main.fc59851e.chunk.js.map",
+    "runtime-main.js": "/You-Dont-Know-JS-Persian/static/js/runtime-main.5caa91e3.js",
+    "runtime-main.js.map": "/You-Dont-Know-JS-Persian/static/js/runtime-main.5caa91e3.js.map",
+    "static/css/2.e4250355.chunk.css": "/You-Dont-Know-JS-Persian/static/css/2.e4250355.chunk.css",
+    "static/js/2.a8ee411d.chunk.js": "/You-Dont-Know-JS-Persian/static/js/2.a8ee411d.chunk.js",
+    "static/css/2.e4250355.chunk.css.map": "/You-Dont-Know-JS-Persian/static/css/2.e4250355.chunk.css.map",
+    "static/js/2.a8ee411d.chunk.js.map": "/You-Dont-Know-JS-Persian/static/js/2.a8ee411d.chunk.js.map",
+    "index.html": "/You-Dont-Know-JS-Persian/index.html",
+    "precache-manifest.6bfc445056440bbc6de1f62f0d1944b0.js": "/You-Dont-Know-JS-Persian/precache-manifest.6bfc445056440bbc6de1f62f0d1944b0.js",
+    "service-worker.js": "/You-Dont-Know-JS-Persian/service-worker.js",
+    "static/media/App.less": "/You-Dont-Know-JS-Persian/static/media/samim.8e1ecf79.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5caa91e3.js",
+    "static/css/2.e4250355.chunk.css",
+    "static/js/2.a8ee411d.chunk.js",
+    "static/css/main.7548605f.chunk.css",
+    "static/js/main.fc59851e.chunk.js"
+  ]
+}
