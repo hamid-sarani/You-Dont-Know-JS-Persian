@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://hamid-sarani.github.io/You-Dont-Know-JS-Persian",
+  "author": {
+    "name": "Hamid Sarani",
+    "email": "tehran.vps.ir@gmail.com",
+    "url": "https://github.com/hamid-sarani/You-Dont-Know-JS-Persian.git"
+  },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
